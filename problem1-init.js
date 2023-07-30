@@ -1,7 +1,6 @@
-
-const multipleOfThree = (number) => (number % 3 === 0)
+const multipleOfThree = (number) => number % 3 === 0
 let numberToChek = 302
-let isMultipleOfThree = multipleOfThree (numberToChek)
+let isMultipleOfThree = multipleOfThree(numberToChek)
 
 console.log(isMultipleOfThree)
 
@@ -9,4 +8,3 @@ console.log(isMultipleOfThree)
 devuelve true, sino devuelve false.
 A la variable numberToCheck se asigna el valor a chequear y es el que se pasa por parámetro 
 a la función multipleOfThree*/
-
