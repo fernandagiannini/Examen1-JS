@@ -1,7 +1,9 @@
-const multipleOfThree = (number) => number % 3 === 0
-let numberToChek = 302
-let isMultipleOfThree = multipleOfThree(numberToChek)
 
+const multipleOfThree = (number) => number % 3 === 0
+
+
+let numberToCheck = 300
+let isMultipleOfThree = multipleOfThree(numberToCheck)
 console.log(isMultipleOfThree)
 
 /*la funcion multipleOfThree recibe un numero y chequea que sea multiplo de 3. Si es así 
